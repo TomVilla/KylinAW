@@ -1,0 +1,333 @@
+{
+  "uuid": "ff91f5fa-29a9-83af-3932-96006bc5f41f",
+  "last_modified": 1643585069372,
+  "version": "3.0.0.20500",
+  "name": "cuboAW",
+  "owner": "ADMIN",
+  "descriptor": "cuboAW",
+  "display_name": "cuboAW",
+  "cost": 50,
+  "status": "READY",
+  "segments": [
+    {
+      "uuid": "1fcd1f71-66f8-6a6b-6739-d7ca5341ee71",
+      "name": "FULL_BUILD",
+      "storage_location_identifier": "KYLIN_RP6GZ48QT8",
+      "date_range_start": 0,
+      "date_range_end": 9223372036854776000,
+      "source_offset_start": 0,
+      "source_offset_end": 0,
+      "status": "READY",
+      "size_kb": 25471,
+      "is_merged": false,
+      "estimate_ratio": [
+        -1,
+        0.7773394363214902,
+        0.6743274075654405,
+        0.8921907275046251,
+        0.5428249284827577,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "input_records": 60398,
+      "input_records_size": 12513943,
+      "last_build_time": 1643585068654,
+      "last_build_job_id": "3d3f51d6-f892-eecb-69b2-18e841f6e0d3",
+      "create_time_utc": 1643584628299,
+      "cuboid_shard_nums": {},
+      "total_shards": 1,
+      "blackout_cuboids": [],
+      "binary_signature": null,
+      "dictionaries": {
+        "DIMPRODUCT.ENDDATE": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/ENDDATE/f1aa1b6a-ec1c-eb3b-bffa-6b85f1664002.dict",
+        "DIMDATE.WEEKNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/WEEKNUMBEROFYEAR/f0de1b1f-5a4e-f3d8-297d-7612fa5cbf27.dict",
+        "DIMDATE.ENGLISHMONTHNAME": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHMONTHNAME/68320f1f-bc31-2f6d-4560-f91a29955356.dict",
+        "DIMPRODUCT.COLOR": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/COLOR/4075a3cb-e6b6-0145-dcc9-413921b46f51.dict",
+        "DIMPRODUCT.STANDARDCOST": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/STANDARDCOST/5ca5d93a-8ee2-baef-6c09-1778e5d419e1.dict",
+        "DIMDATE.MONTHNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/MONTHNUMBEROFYEAR/ab69fe03-77d6-a1d6-e0f2-7f361d1b9b91.dict",
+        "DIMDATE.CALENDARYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARYEAR/fd881efe-9656-75b1-64a1-c1a45a014c5e.dict",
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/ENGLISHDAYNAMEOFWEEK/a112e994-77c4-09df-4f3d-9c7eb24be28d.dict",
+        "FACTINTERNETSALES.PRODUCTKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/PRODUCTKEY/983d6f94-fb50-ebd9-e561-2792f68cdd06.dict",
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTCATEGORYKEY/66bee1e1-4204-7044-a2e1-d28f6dc44f95.dict",
+        "DIMPRODUCT.STYLE": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/STYLE/61021eb8-678f-8c36-3468-b035ab486162.dict",
+        "DIMDATE.DAYNUMBEROFWEEK": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFWEEK/17a4f1fc-8653-56c8-b374-c1e8f1fa8f41.dict",
+        "DIMDATE.DAYNUMBEROFYEAR": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFYEAR/368b67a7-c369-ff0b-47f8-47f57f340e39.dict",
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/PRODUCTSUBCATEGORYKEY/bd24612d-2c6b-4025-ce03-4b00fa51b728.dict",
+        "FACTINTERNETSALES.SALESTERRITORYKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/SALESTERRITORYKEY/a7b510bc-5605-f17a-8dc8-6242b5dc7743.dict",
+        "DIMPRODUCT.STATUS": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/STATUS/13c55a5a-05d4-d628-c613-e20e5dbfe5f6.dict",
+        "FACTINTERNETSALES.CURRENCYKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/CURRENCYKEY/bf7bfb47-d0e0-d0ec-32ca-c6cc3f9fdc10.dict",
+        "DIMDATE.CALENDARSEMESTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARSEMESTER/31ebc126-90fd-7c40-be4f-fea9d64b14e2.dict",
+        "DIMPRODUCTCATEGORY.ENGLISHPRODUCTCATEGORYNAME": "/dict/ADVENTUREWORKSDW.DIMPRODUCTCATEGORY/ENGLISHPRODUCTCATEGORYNAME/9304d442-fa62-0608-3f7d-0f7d5c1a0ed7.dict",
+        "FACTINTERNETSALES.CUSTOMERKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/CUSTOMERKEY/d66b1a7d-a93f-4d75-0912-7440497ee6da.dict",
+        "DIMCUSTOMER.GENDER": "/dict/ADVENTUREWORKSDW.DIMCUSTOMER/GENDER/99e63843-e495-6ea2-9525-d4790096c0da.dict",
+        "DIMDATE.CALENDARQUARTER": "/dict/ADVENTUREWORKSDW.DIMDATE/CALENDARQUARTER/f9e48165-e16f-6d1d-64e0-70ecc89299ff.dict",
+        "FACTINTERNETSALES.ORDERDATEKEY": "/dict/ADVENTUREWORKSDW.FACTINTERNETSALES/ORDERDATEKEY/875f2b4d-c024-f3a1-a57e-5daafdbf75b7.dict",
+        "DIMDATE.DAYNUMBEROFMONTH": "/dict/ADVENTUREWORKSDW.DIMDATE/DAYNUMBEROFMONTH/8378192d-8ee9-eddd-d4e0-0b9c1bce9ff1.dict",
+        "DIMPRODUCT.STARTDATE": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/STARTDATE/78d0eb02-d35b-2114-1ddb-3ffde1dc0cde.dict",
+        "DIMPRODUCT.SIZE": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/SIZE/5ba29f98-b5e2-3224-ef48-88c167c26da3.dict",
+        "DIMPRODUCT.ENGLISHDESCRIPTION": "/dict/ADVENTUREWORKSDW.DIMPRODUCT/ENGLISHDESCRIPTION/4baed655-44d3-a781-9542-f93002f46d74.dict"
+      },
+      "snapshots": {
+        "ADVENTUREWORKSDW.DIMPRODUCT": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCT/93b4f0f1-9c88-b452-9931-6451458de44c.snapshot",
+        "ADVENTUREWORKSDW.DIMCUSTOMER": "/table_snapshot/ADVENTUREWORKSDW.DIMCUSTOMER/2943446a-7bae-a31e-c51e-13b52e6e8ad9.snapshot",
+        "ADVENTUREWORKSDW.DIMDATE": "/table_snapshot/ADVENTUREWORKSDW.DIMDATE/a2f6eecf-376a-a8fb-c239-de759d9d402b.snapshot",
+        "ADVENTUREWORKSDW.DIMPRODUCTCATEGORY": "/table_snapshot/ADVENTUREWORKSDW.DIMPRODUCTCATEGORY/9f4e74d8-85bf-dc23-0338-c6e463517deb.snapshot"
+      },
+      "rowkey_stats": [
+        [
+          "DIMPRODUCT.STARTDATE",
+          3,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARQUARTER",
+          4,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTSUBCATEGORYKEY",
+          17,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.ORDERDATEKEY",
+          1124,
+          2
+        ],
+        [
+          "FACTINTERNETSALES.CURRENCYKEY",
+          6,
+          1
+        ],
+        [
+          "DIMPRODUCT.STANDARDCOST",
+          45,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.CUSTOMERKEY",
+          18484,
+          2
+        ],
+        [
+          "FACTINTERNETSALES.SALESTERRITORYKEY",
+          10,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFMONTH",
+          31,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFYEAR",
+          365,
+          2
+        ],
+        [
+          "DIMDATE.WEEKNUMBEROFYEAR",
+          53,
+          1
+        ],
+        [
+          "DIMDATE.ENGLISHMONTHNAME",
+          12,
+          1
+        ],
+        [
+          "DIMPRODUCT.SIZE",
+          18,
+          1
+        ],
+        [
+          "DIMCUSTOMER.GENDER",
+          2,
+          1
+        ],
+        [
+          "DIMDATE.MONTHNUMBEROFYEAR",
+          12,
+          1
+        ],
+        [
+          "DIMPRODUCT.ENGLISHDESCRIPTION",
+          40,
+          1
+        ],
+        [
+          "DIMPRODUCT.STYLE",
+          2,
+          1
+        ],
+        [
+          "DIMDATE.DAYNUMBEROFWEEK",
+          7,
+          1
+        ],
+        [
+          "DIMPRODUCT.PRODUCTCATEGORYKEY",
+          3,
+          1
+        ],
+        [
+          "DIMPRODUCT.STATUS",
+          1,
+          1
+        ],
+        [
+          "DIMPRODUCTCATEGORY.ENGLISHPRODUCTCATEGORYNAME",
+          3,
+          1
+        ],
+        [
+          "DIMPRODUCT.ENDDATE",
+          2,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARYEAR",
+          4,
+          1
+        ],
+        [
+          "DIMDATE.CALENDARSEMESTER",
+          2,
+          1
+        ],
+        [
+          "DIMPRODUCT.COLOR",
+          8,
+          1
+        ],
+        [
+          "FACTINTERNETSALES.PRODUCTKEY",
+          158,
+          1
+        ],
+        [
+          "DIMDATE.ENGLISHDAYNAMEOFWEEK",
+          7,
+          1
+        ]
+      ],
+      "stream_source_checkpoint": null,
+      "dimension_range_info_map": {
+        "DIMPRODUCT.ENDDATE": {
+          "min": "1151625600000",
+          "max": "1183161600000"
+        },
+        "DIMDATE.WEEKNUMBEROFYEAR": {
+          "min": "1",
+          "max": "53"
+        },
+        "DIMDATE.ENGLISHMONTHNAME": {
+          "min": "April",
+          "max": "September"
+        },
+        "DIMPRODUCT.COLOR": {
+          "min": "Black",
+          "max": "Yellow"
+        },
+        "DIMDATE.MONTHNUMBEROFYEAR": {
+          "min": "1",
+          "max": "12"
+        },
+        "DIMDATE.CALENDARYEAR": {
+          "min": "2005",
+          "max": "2008"
+        },
+        "DIMPRODUCT.STANDARDCOST": {
+          "min": "0.8565",
+          "max": "2171.2942"
+        },
+        "DIMDATE.ENGLISHDAYNAMEOFWEEK": {
+          "min": "Friday",
+          "max": "Wednesday"
+        },
+        "FACTINTERNETSALES.PRODUCTKEY": {
+          "min": "214",
+          "max": "606"
+        },
+        "DIMPRODUCT.PRODUCTCATEGORYKEY": {
+          "min": "1",
+          "max": "4"
+        },
+        "DIMPRODUCT.STYLE": {
+          "min": "U",
+          "max": "W"
+        },
+        "DIMDATE.DAYNUMBEROFWEEK": {
+          "min": "1",
+          "max": "7"
+        },
+        "DIMDATE.DAYNUMBEROFYEAR": {
+          "min": "1",
+          "max": "365"
+        },
+        "DIMPRODUCT.PRODUCTSUBCATEGORYKEY": {
+          "min": "1",
+          "max": "37"
+        },
+        "FACTINTERNETSALES.SALESTERRITORYKEY": {
+          "min": "1",
+          "max": "10"
+        },
+        "DIMPRODUCT.STATUS": {
+          "min": "Current",
+          "max": "Current"
+        },
+        "FACTINTERNETSALES.CURRENCYKEY": {
+          "min": "6",
+          "max": "100"
+        },
+        "DIMDATE.CALENDARSEMESTER": {
+          "min": "1",
+          "max": "2"
+        },
+        "DIMPRODUCTCATEGORY.ENGLISHPRODUCTCATEGORYNAME": {
+          "min": "Accessories",
+          "max": "Clothing"
+        },
+        "FACTINTERNETSALES.CUSTOMERKEY": {
+          "min": "11000",
+          "max": "29483"
+        },
+        "DIMCUSTOMER.GENDER": {
+          "min": "F",
+          "max": "M"
+        },
+        "DIMDATE.CALENDARQUARTER": {
+          "min": "1",
+          "max": "4"
+        },
+        "FACTINTERNETSALES.ORDERDATEKEY": {
+          "min": "20050701",
+          "max": "20080731"
+        },
+        "DIMDATE.DAYNUMBEROFMONTH": {
+          "min": "1",
+          "max": "31"
+        },
+        "DIMPRODUCT.STARTDATE": {
+          "min": "1120176000000",
+          "max": "1183248000000"
+        },
+        "DIMPRODUCT.SIZE": {
+          "min": "38",
+          "max": "XL"
+        },
+        "DIMPRODUCT.ENGLISHDESCRIPTION": {
+          "min": "AWC logo water bottle - holds 30 oz; leak-proof.",
+          "max": "Washes off the toughest road grime; dissolves grease, environmentally safe. 1-liter bottle."
+        }
+      }
+    }
+  ],
+  "create_time_utc": 1643584325009,
+  "cuboid_bytes": "eAE1lEmOK0kMQ++Say80D75ao+/+n9Ko3Bjh0ECRVPz3qIdpt/XzLVOvz2OyrWnP1z6PZttUPN/+PF4tovV8NT7P+EzJkERQ1Ihc1KVrWdoaV2YEete4idzR9vOkWJUq5dcludfnG8TVmpQEMFz5WyUmO3c5e6oS0BLub91xcUK0I4S755uuTtJoz2ySY2QTceg3r6QcZC8dcwZQWSqqplPy4oP2gFOxBsShsIigRIzWbAE/py+CL1byio4MMAza4mZ/K7pFmZAf2TGfp6V79jDC8uXHhtkR10ry6GREHaaUhHDPhNfgXtXf+I6sow9+/q4bxBq5iBK+HZWo4jn0i5JWgCGMCAkaSsUDZH26VcOaH626BoCfPCeC+UtByzC5Mp9SEESjq8tHB9tgyFF30SYCma+GVoK+kRR94MzXTY+yOD+MnUbCiFDjhNe60wVIanUz/jjeM4KsH8hMZ6Ik+DffBbvQ4vPslsb1irOn5QCK2tHkDV5uPyt740i0Qdz3bH3F8LpMUR12tK91o49gbDImoPNn3nNE0u7PrW+D2X7Bw2MmWL2SAtXeDEdCYKU//u/sB/QIRtLbpn4BQ22jJLODkNvbqbMbJjpmrQKFOK69i2Ws5O0KS8g5m8s6bYFW0/DwWufHTG9n+1lt4Y/ZdsyY6iV+brh3p45nv2pHji08F0wimNWc7YSrmmKXjobzO6UyKH4avkM33mUdKIS2heuU3yljC4aRla75CrzRL6muE/c+JFxw7xJadw7xm6Tx3jqqdO3JvzwouI4zywOn9DoGSw8obK6Qq7wnN6RWp4KUV4Vazl6w9EfwsGkXYNj1th5UC+VMAKxTsDDyLe37fN0zMWv//wMibv1B",
+  "cuboid_bytes_recommend": null,
+  "cuboid_last_optimized": 0,
+  "snapshots": {}
+}
