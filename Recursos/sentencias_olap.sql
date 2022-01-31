@@ -6,11 +6,11 @@ group by rollup(ds.salesterritorycountry, ds.salesterritoryregion);
 
 
 -- drill-dowwn
-select  d.calendaryear, d.calendarsemester, sum(f.orderquantity) total_quantity
+select  d.calendaryear, d.calendarsemester, c.gender, sum(f.orderquantity) total_quantity
 from factinternetsales f
 join dimdate d on f.orderdatekey = d.datekey
 join dimcustomer c on f.customerkey = c.customerkey
-group by (d.calendaryear,d.calendarsemester)
+group by (d.calendaryear,d.calendarsemester, c.gender)
 order by d.calendaryear desc
 
 
