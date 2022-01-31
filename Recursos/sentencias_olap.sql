@@ -6,16 +6,16 @@ group by rollup(ds.salesterritorycountry, ds.salesterritoryregion);
 
 
 -- drill-dowwn
-select  d.calendaryear, c.gender, sum(f.orderquantity) total_quantity
+select  d.calendaryear, d.calendarsemester, sum(f.orderquantity) total_quantity
 from factinternetsales f
 join dimdate d on f.orderdatekey = d.datekey
 join dimcustomer c on f.customerkey = c.customerkey
-group by (d.calendaryear,c.gender)
+group by (d.calendaryear,d.calendarsemester)
 order by d.calendaryear desc
 
 
 -- dice
-select  p.color ,sum(orderquantity) total
+select  p.color ,sum(f.orderquantity) total
 from factinternetsales f
 join dimproduct p on f.productkey = p.productkey
 join dimproductcategory pc on p.productcategorykey = pc.productcategorykey
